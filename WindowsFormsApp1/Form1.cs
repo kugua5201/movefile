@@ -183,6 +183,13 @@ namespace WindowsFormsApp1
                 label1.Visible = true;
                 textBox1.Visible = true;
             }
+            else
+            {
+                label1.Visible = false;
+                textBox1.Visible = false;
+                textBox1.Text = "";
+                photoValue= comboBox1.SelectedItem.ToString();
+            }
         }
     }
 }
